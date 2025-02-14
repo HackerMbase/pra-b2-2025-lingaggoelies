@@ -49,17 +49,6 @@ header{
   width: 512px;
 }
 
-.info{
-  display: flex;
-  justify-content: space-between;
-}
-
-.info2{
-  display: flex;
-  justify-content: space-between;
-}
-
-
 h1{
   margin: 0;
   font-family: 'Heartbeat';
@@ -79,6 +68,16 @@ h2{
 
 main{
   padding: 1em;
+}
+
+.info{
+  display: flex;
+  justify-content: space-between;
+}
+
+.info2{
+  display: flex;
+  justify-content: space-between;
 }
 
 table{
@@ -131,6 +130,16 @@ article h2.rides{
 }
 article h2.open-forever{
   background-image: url('../images/open-james-lee.jpg');
+}
+
+.emphasize{
+  border-left: 5px solid #27AE60;
+  box-shadow: 1px 0px 5px #27AE60;
+  padding-left: 1em; 
+}
+
+.emphasize h2{
+  margin: 0;
 }
 
 .product{
