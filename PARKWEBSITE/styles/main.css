@@ -49,6 +49,17 @@ header{
   width: 512px;
 }
 
+.info{
+  display: flex;
+  justify-content: space-between;
+}
+
+.info2{
+  display: flex;
+  justify-content: space-between;
+}
+
+
 h1{
   margin: 0;
   font-family: 'Heartbeat';
