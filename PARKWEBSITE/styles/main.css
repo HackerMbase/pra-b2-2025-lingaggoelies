@@ -205,26 +205,7 @@ footer{
   ##Screen = B/w 768px to 1024px
 */
 
-.row > * {
-    flex: 1;
-    min-width: 200px;
-}
 
-
-.row {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    gap: 10px;
-}
-
-
-.sidy-by-side {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-}
 
 
 @media (max-width: 1024px) {
