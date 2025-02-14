@@ -49,6 +49,17 @@ header{
   width: 512px;
 }
 
+.info{
+  display: flex;
+  justify-content: space-between;
+}
+
+.info2{
+  display: flex;
+  justify-content: space-between;
+}
+
+
 h1{
   margin: 0;
   font-family: 'Heartbeat';
@@ -112,6 +123,7 @@ article h2{
   background-position: center;
   background-size: cover;
   text-align: center;
+  text-shadow: 0 0 0 #FCFCFC, -1px -1px 0 #FCFCFC, 1px -1px 0 #FCFCFC, -1px 1px 0 #FCFCFC, 1px 1px 0 #FCFCFC;
 }
 article h2.fun-for-family{
   background-image: url('../images/family-fun-george-arthur-pflueger.jpg');
@@ -198,19 +210,16 @@ footer{
   ##Screen = B/w 768px to 1024px
 */
 
+
+
+
 @media (max-width: 1024px) {
   .logo{
     margin: 0 auto;
     width: 256px;
   }
 
-  .row{
-    flex-direction: column;
-  }
-  .sidy-by-side{
-    flex-direction: column;
-    align-items: center;
-  }
+
 }
 
 /*
