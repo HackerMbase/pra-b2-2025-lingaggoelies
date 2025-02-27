@@ -47,7 +47,7 @@ header {
 
 h1 {
   margin: 0;
-  font-family: 'Heartbeat';
+  font-family: "Rubik Vinyl", system-ui;
   color: #27AE60;
   text-shadow: 
     3px 3px 0 #FCFCFC,
@@ -63,8 +63,8 @@ h2 {
 }
 
 p, span {
-  font-family: 'Heartbeat';
-  font-size: 25px;
+  font-family: "Rubik Vinyl", system-ui;
+  font-size: 17px;
 }
 
 main {
